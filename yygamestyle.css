@@ -1,0 +1,559 @@
+
+.hairbutton {
+	cursor: pointer;
+}
+
+.bbbutton {
+	cursor: pointer;
+}
+
+.moving {
+	cursor: grab;
+  }
+
+
+#outerbox {
+	border: 1px solid;
+	background-color: #a0a0a0;
+	width: 1800px;
+	height: 900px;
+	margin: auto;
+}
+
+#stagebox {
+	position: absolute;
+	background-image: url("backdrop/back3.png");
+	/*border: 1px solid red;*/
+	background-color: lightblue;
+	width: 1600px;
+	height: 900px;
+	z-index: 5;
+}
+
+#selectbox {
+	position: relative;
+	left: 1600px;
+	background-color: white;
+	width: 200px;
+	height: 900px;
+	text-align: center;
+}
+
+#hirundodoll {
+	position: absolute;
+	/*border: 1px solid red;*/
+	z-index: 2;
+	left: 35%;
+	top: 10%;
+}
+
+#friedrichdoll {
+	position: absolute;
+	/*border: 1px solid red;*/
+	z-index: 2;
+	left: 52%;
+	top: 10%;
+}
+
+
+
+/********top********/
+
+
+#top1{
+	position: absolute;
+	z-index: 6;
+	top: 300px;
+	left: 857px;
+}
+
+#top2{
+	position: absolute;
+	z-index: 9;
+	top: 300px;
+	left: 595px;
+}
+
+#top3{
+	position: absolute;
+	z-index: 6;
+	top: 50px;
+	left: 15px;
+}
+
+#top4{
+	position: absolute;
+	z-index: 9;
+	top: 50px;
+	left: 100px;
+}
+
+/*********bottom**********/
+
+#bottom1{
+	position: absolute;
+	z-index: 8;
+	bottom: 150px;
+	left:15px;
+}
+
+#bottom2{
+	position: absolute;
+	z-index: 8;
+	bottom: 100px;
+	left:655px;
+}
+
+
+#bottom3{
+	position: absolute;
+	z-index: 8;
+	bottom: 140px;
+	left:890px;
+}
+
+#bottom4{
+	position: absolute;
+	z-index: 5;
+	bottom: 150px;
+	left: 115px;
+}
+
+#bottom5{
+	position: absolute;
+	z-index: 8;
+	bottom: 150px;
+	left: 215px;
+}
+
+/********outer********/
+
+#outer1{
+	position: absolute;
+	z-index: 10;
+	top: 50px;
+	left: 185px;
+}
+
+#outer2{
+	position: absolute;
+	z-index: 11;
+	top: 280px;
+	left: 565px;
+}
+
+#outer3{
+	position: absolute;
+	z-index: 10;
+	top: 50px;
+	left: 270px;
+}
+
+#outer4{
+	position: absolute;
+	z-index: 10;
+	top: 250px;
+	left: 1300px;
+}
+
+#outer5{
+	position: absolute;
+	z-index: 8;
+	top: 300px;
+	left: 1360px;
+}
+
+#outer6{
+	position: absolute;
+	z-index: 15;
+	top: 350px;
+	left: 1280px;
+}
+
+#outer7{
+	position: absolute;
+	z-index: 9;
+	top: 400px;
+	left: 1280px;
+}
+
+/********footlocker**********/
+
+#shoe1{
+	position: absolute;
+	z-index: 10;
+	bottom: 34px;
+	left: 840px;
+}
+
+#shoe2{
+	position: absolute;
+	z-index: 10;
+	bottom: 35px;
+	left: 597px;
+}
+
+#shoe3{
+	position: absolute;
+	z-index: 10;
+	bottom: 15px;
+	left: 5px;
+}
+
+#shoe4{
+	position: absolute;
+	z-index: 10;
+	bottom: 80px;
+	left: 0px;
+}
+
+#shoe5{
+	position: absolute;
+	z-index: 10;
+	bottom: 20px;
+	left: 115px;
+}
+
+#shoe6{
+	position: absolute;
+	z-index: 10;
+	bottom: 15px;
+	left: 180px;
+}
+
+/**********belt***********/
+
+#belt1{
+	position: absolute;
+	z-index: 14;
+	top: 600px;
+	left: 300px;
+}
+
+#belt2{
+	position: absolute;
+	z-index: 14;
+	top: 550px;
+	left: 300px;
+}
+
+#belt3{
+	position: absolute;
+	z-index: 14;
+	top: 480px;
+	left: 300px;
+}
+
+/**********haira***********/
+
+#haira1{
+	position: absolute;
+	z-index: 16;
+	top: 140px;
+	left: 655px;
+}
+
+#haira2{
+	position: absolute;
+	z-index: 14;
+	top: 250px;
+	right: 200px;
+}
+
+#haira3{
+	position: absolute;
+	z-index: 14;
+	top: 120px;
+	right: 40px;
+}
+
+#haira4{
+	position: absolute;
+	z-index: 14;
+	top: 300px;
+	left: 300px;
+}
+
+#haira5{
+	position: absolute;
+	z-index: 14;
+	top: 15px;
+	right: 100px;
+}
+
+#haira6{
+	position: absolute;
+	z-index: 14;
+	top: 15px;
+	right: 15px;
+}
+
+#haira7{
+	position: absolute;
+	z-index: 14;
+	top: 60px;
+	right: 150px;
+}
+
+#haira8{
+	position: absolute;
+	z-index: 14;
+	bottom: 40px;
+	left: 400px;
+}
+
+#haira9{
+	position: absolute;
+	z-index: 14;
+	bottom: 20px;
+	left: 400px;
+}
+
+#haira10{
+	position: absolute;
+	z-index: 15;
+	bottom: 180px;
+	left: 380px;
+}
+
+#haira11{
+	position: absolute;
+	z-index: 14;
+	bottom: 150px;
+	left: 380px;
+}
+
+
+
+/**********gloves***********/
+
+#glove1{
+	position: absolute;
+	z-index: 8;
+	top: 320px;
+	right: 250px;
+}
+
+#glove2{
+	position: absolute;
+	z-index: 8;
+	top: 320px;
+	right: 280px;
+}
+
+#glove3{
+	position: absolute;
+	z-index: 8;
+	top: 400px;
+	right: 250px;
+}
+
+#glove4{
+	position: absolute;
+	z-index: 8;
+	top: 400px;
+	right: 280px;
+}
+
+#glove5{
+	position: absolute;
+	z-index: 8;
+	top: 500px;
+	right: 250px;
+}
+
+#glove6{
+	position: absolute;
+	z-index: 8;
+	top: 500px;
+	right: 280px;
+}
+
+/******shine*****/
+
+#shine1{
+	position: absolute;
+	z-index: 30;
+	top: 300px;
+	left: 930px;
+}
+
+#shine2{
+	position: absolute;
+	z-index: 8;
+	top: 505px;
+	left: 860px;
+}
+
+#shine3{
+	position: absolute;
+	z-index: 8;
+	top: 490px;
+	left: 1045px;
+}
+
+#shine4{
+	position: absolute;
+	z-index: 30;
+	top: 250px;
+	left: 1005px;
+}
+
+#shine5{
+	position: absolute;
+	z-index: 30;
+	top: 250px;
+	left: 920px;
+}
+
+#shine9{
+	position: absolute;
+	z-index: 30;
+	top: 248px;
+	left: 685px;
+}
+
+#shine8{
+	position: absolute;
+	z-index: 30;
+	top: 300px;
+	left: 660px;
+}
+
+
+#shine6{
+	position: absolute;
+	z-index: 30;
+	bottom: 15px;
+	right: 15px;
+}
+
+#shine7{
+	position: absolute;
+	z-index: 30;
+	bottom: 70px;
+	left: 480px;
+}
+
+#shine10{
+	position: absolute;
+	z-index: 30;
+	bottom: 100px;
+	left: 400px;
+}
+
+#shine11{
+	position: absolute;
+	z-index: 30;
+	bottom: 110px;
+	left: 400px;
+}
+
+#shine12{
+	position: absolute;
+	z-index: 30;
+	bottom: 70px;
+	left: 400px;
+}
+
+#shine13{
+	position: absolute;
+	z-index: 30;
+	top: 15px;
+	left: 15px;
+}
+
+#shine14{
+	position: absolute;
+	z-index: 30;
+	top: 15px;
+	left: 250px;
+}
+
+#shine15{
+	position: absolute;
+	z-index: 30;
+	top: 15px;
+	left: 100px;
+}
+
+#shine16{
+	position: absolute;
+	z-index: 30;
+	top: 15px;
+	left: 350px;
+}
+
+#shine17{
+	position: absolute;
+	z-index: 30;
+	top: 15px;
+	left: 400px;
+}
+
+#shine18{
+	position: absolute;
+	z-index: 30;
+	top: 15px;
+	left: 433px;
+}
+
+
+/******makeup*****/
+
+#makeupbox{
+	position:absolute;
+	z-index: 20;
+	top: 210px;
+	left: 682px;
+	display:none;
+	/*border: 1px solid red;*/
+}
+
+/******clickbox*****/
+
+#click1box{
+	position:absolute;
+	z-index: 20;
+	top: 250px;
+	left: 930px;
+	display:none;
+	/*border: 1px solid red;*/
+}
+
+#click2box{
+	position:absolute;
+	z-index: 20;
+	top: 250px;
+	left: 927px;
+	display:none;
+	/*border: 1px solid red;*/
+}
+
+#click3box{
+	position:absolute;
+	z-index: 20;
+	top: 15px;
+	left: 810px;
+	display:none;
+	/*border: 1px solid red;*/
+}
+
+#click4box{
+	position:absolute;
+	z-index: 20;
+	top: 0px;
+	left: 810px;
+	display:none;
+	/*border: 1px solid red;*/
+}
+
+/******fire*****/
+#fire{
+	position:absolute;
+	z-index: 20;
+	top: 255px;
+	left: 0px;
+	display:none;
+	/*border: 1px solid red;*/
+}
