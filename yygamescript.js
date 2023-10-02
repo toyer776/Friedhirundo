@@ -101,3 +101,38 @@ function fourclick(){
   }
     }
 
+  function gold(){
+    var g = document.getElementById("gold");
+    if (g.style.display == "none"){
+          g.style.display = "block";
+  }else{
+          g.style.display = "none";
+  }
+     }
+
+  function dog(){
+    var d = document.getElementById("dog");
+    if (d.style.display == "none"){
+          d.style.display = "block";
+  }else{
+          d.style.display = "none";
+  }
+     }
+
+ function stag(){
+ var s = document.getElementById("stag");
+  if (s.style.display == "none"){
+      s.style.display = "block";
+  }else{
+       s.style.display = "none";
+   }
+   }
+
+ function kite(){
+  var b = document.getElementById("kite");
+   if (b.style.display == "none"){
+       b.style.display = "block";
+    }else{
+        b.style.display = "none";
+    }
+     }
