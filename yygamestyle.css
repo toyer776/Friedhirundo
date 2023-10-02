@@ -1,4 +1,3 @@
-
 .hairbutton {
 	cursor: pointer;
 }
@@ -190,7 +189,7 @@
 	position: absolute;
 	z-index: 10;
 	bottom: 35px;
-	left: 597px;
+	left: 598px;
 }
 
 #shoe3{
@@ -209,7 +208,7 @@
 
 #shoe5{
 	position: absolute;
-	z-index: 10;
+	z-index: 4;
 	bottom: 20px;
 	left: 115px;
 }
@@ -554,6 +553,47 @@
 	z-index: 20;
 	top: 255px;
 	left: 0px;
+	display:none;
+	/*border: 1px solid red;*/
+}
+
+/******gold*****/
+#gold{
+	position:absolute;
+	z-index: 3;
+	top: 540px;
+	left: 606px;
+	display:none;
+	/*border: 1px solid red;*/
+}
+
+
+/******dog*****/
+#dog{
+	position:absolute;
+	z-index: 3;
+	top: 630px;
+	left: 350px;
+	display:none;
+	/*border: 1px solid red;*/
+}
+
+/******stag*****/
+#stag{
+	position:absolute;
+	z-index: 100;
+	top: 180px;
+	left: 1000px;
+	display:none;
+	/*border: 1px solid red;*/
+}
+
+/******kite*****/
+#kite{
+	position:absolute;
+	z-index: 1;
+	top: 50px;
+	left: 1000px;
 	display:none;
 	/*border: 1px solid red;*/
 }
